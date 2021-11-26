@@ -1,0 +1,9 @@
+#arisBox{
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-size: 200%;
+    border: black;
+    border-style: inset;
+    border-width: 1%;
+}
