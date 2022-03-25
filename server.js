@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 async function returnText(req,res){
-    res.send('cum');
+    res.send('https://www.pornhub.com/');
 }
 
 app.use(express.static('public'));

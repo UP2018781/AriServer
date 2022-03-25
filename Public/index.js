@@ -1,8 +1,8 @@
 const route = '127.0.0.1:8080';
 
 function createButton(height,width,text,id=""){
-    const h = `${parseInt(height)}px`;
-    const w = `${parseInt(width)}px`;
+    const h = `${parseInt(height)}%`;
+    const w = `${parseInt(width)}%`;
     const t = `${text.toString()}`;
     const newButton = document.createElement("button");
 
@@ -33,7 +33,7 @@ async function openBox(e){
 
 function main(){
     
-    document.body.append(createButton(100,100,"Aris Box","arisBox"));
+    document.body.append(createButton(10,10,"Aris Box","arisBox"));
     const mainButton = document.querySelector('#arisBox');
     mainButton.addEventListener("click",(e)=>{openBox(e)});
     
